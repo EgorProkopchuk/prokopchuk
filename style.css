@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Anonymous Pro";
+    src: url(fonts/AnonymousPro-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Anonymous Pro";
+    src: url(fonts/AnonymousPro-Regular.ttf);
+}
+
+h1 {
+    font-family: "Anonymous Pro", sans-serif;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 100%;
+    margin: 0;
+}
+
+h2 {
+    font-family: "Anonymous Pro", sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: normal;    
+}
+
+
+h3 {
+    font-family: "Anonymous Pro", sans-serif;
+    font-size: 16px;
+}
+
+p {
+    font-family: "Anonymous Pro", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+img {
+    width: 370px;
+}
+
+body {
+    color: #121723;
+    font-family: "Anonymous Pro", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1160px;
+    margin: 0 auto;
+}
+
+/* ---------header -----------*/
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #000;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 30px 0 16px;
+}
+
+.logo img {
+    width: 212.34px;
+    height: 63.24px;
+}
+
+/* .header__social {} */
+
+.header__list {
+    display: flex;
+    gap: 24px;
+    padding: 0;
+    margin: 0;
+}
+
+.header__list-item {
+    list-style-type: none;
+}
+
+.header__links {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* -----main------- */
+
+.content {
+    background-color: #F1F1F1;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.content__title {
+    margin-bottom: 24px;
+}
+
+.content__wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 24px;
+    align-items: flex-start;
+}
+
+.sneaker {
+    max-width: 371px;
+    background-color: white;
+    border-radius: 12px;
+}
+
+.sneaker img {
+    border-radius: 12px;
+}
+
+.sneaker__text {
+    padding: 32px 24px;
+}
+
+.sneaker__name, .sneaker__desc {
+    margin: 10px 0;
+}
+
+
+/* -----footer------ */
+
+.footer {
+    background-color: #121723;
+    padding: 32px 0 21px;
+}
+.footer__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer__list {
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+}
+hr {
+    background-color: #E6E8EC66;
+    opacity: 40%;
+    margin-bottom: 18px;
+    margin-top: 33px;
+}
+
+.footer__down {
+    color: #A1A6B4;
+    text-align: center;
+    margin: 0;
+}
